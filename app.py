@@ -24,7 +24,7 @@ import gradio as gr
 # --------------------------------------------------------------------------
 # Load the model + preprocessing objects saved by the notebook
 # --------------------------------------------------------------------------
-model = joblib.load("best_model.pkl")
+model = joblib.load("diamond_price_model.pkl")
 encoder = joblib.load("diamond_encoder.pkl")
 scaler = joblib.load("diamond_scaler.pkl")
 numerical_features = joblib.load("diamond_numerical_features.pkl")
